@@ -1,0 +1,25 @@
+#+TITLE: node-react-redux-bootstrap-template
+#+AUTHOR: Boris Wong
+#+DATE: <2017-11-02 Thu> 
+
+Default template for create-react-app setup, with bootstrap and redux set up.
+
+jQuery is included for bootstrap, but generally not needed for use with
+node/react projects.
+
+* Packages Included
+- react-scripts
+- redux
+- redux-thunk
+- react-redux
+- bootstrap
+- jquery
+- popper.js (for bootstrap)
+- tether (for bootstrap)
+
+* Folder structure
+** React
+React components should reside in `src/components`
+** Redux
+Reducers, actions, store, and middleware are found in the `src/redux` folder
+
