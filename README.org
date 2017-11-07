@@ -2,10 +2,17 @@
 #+AUTHOR: Boris Wong
 #+DATE: <2017-11-02 Thu> 
 
-Default template for create-react-app setup, with bootstrap and redux set up.
+* Description
+My favourite front-end setup: node-react-redux-bootstrap... in a template!
 
 jQuery is included for bootstrap, but generally not needed for use with
 node/react projects.
+
+* Usage
+The easiest way to use this template is to clone the repository, delete the =.git= folder, and =git init= again.
+
+Remember to run =npm install=
+
 
 * Packages Included
 - react-scripts
@@ -19,7 +26,7 @@ node/react projects.
 
 * Folder structure
 ** React
-React components should reside in `src/components`
+React components should reside in =src/components=
 ** Redux
-Reducers, actions, store, and middleware are found in the `src/redux` folder
+Reducers, actions, store, and middleware are found in the =src/redux= folder
 
