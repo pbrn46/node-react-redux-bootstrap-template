@@ -1,8 +1,8 @@
 import * as actions  from '.'
 export default actions
 
-export const SET_NOTHING = "SET_NOTHING"
-export const setNothing = (nothing) => ({
-  type: SET_NOTHING,
-  nothing,
+export const SET_TEST = "SET_TEST"
+export const setTest = (test) => ({
+  type: SET_TEST,
+  test,
 })

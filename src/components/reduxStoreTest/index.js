@@ -5,16 +5,16 @@ import actions from '../../redux/actions'
 
 
 const mapStateToProps = (state) => ({
-  nothing: state.nothing,
+  test: state.test,
 })
 
 const mapDispatchToProps = ({
-  setNothing: actions.setNothing,
+  setTest: actions.setTest,
 })
 
 class ReduxStoreTest extends React.Component {
   toggleTest() {
-    this.props.setNothing(!this.props.nothing)
+    this.props.setTest(!this.props.test)
   }
   render() {
     return (
@@ -23,11 +23,11 @@ class ReduxStoreTest extends React.Component {
           <button
             type="button"
             onClick={(e) => this.toggleTest()}>
-            Toggle "nothing" Reducer
+            Toggle "test" Reducer
           </button>
         </div>
         <p>
-        "nothing" reducer value: <b>{String(this.props.nothing)}</b>
+        "test" reducer value: <b>{String(this.props.test)}</b>
         </p>
       </div>
     )
